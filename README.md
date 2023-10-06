@@ -1,5 +1,74 @@
-# CSV Importers for Tabbycat
+<p style="color: red; font-weight: bold">>>>>>  gd2md-html alert:  ERRORs: 0; WARNINGs: 0; ALERTS: 5.</p>
+<ul style="color: red; font-weight: bold"><li>See top comment block for details on ERRORs and WARNINGs. <li>In the converted Markdown or HTML, search for inline alerts that start with >>>>>  gd2md-html alert:  for specific instances that need correction.</ul>
 
-With the deprecation of Tabbycat's `importtournament` command, this repo implements the CSV importers through Tabbycat's API, allowing for wider use. The command file is `importtournament.py`.
+<p style="color: red; font-weight: bold">Links to alert messages:</p><a href="#gdcalert1">alert1</a>
+<a href="#gdcalert2">alert2</a>
+<a href="#gdcalert3">alert3</a>
+<a href="#gdcalert4">alert4</a>
+<a href="#gdcalert5">alert5</a>
 
-This project is licensed under the same license as Tabbycat, and the code here was spun off of Tabbycat on 33809a47902452f2db15bf47419c786e62ebee3d.
+<p style="color: red; font-weight: bold">>>>>> PLEASE check and correct alert issues and delete this message and the inline alerts.<hr></p>
+
+
+<p dir="rtl">
+<strong><span style="text-decoration:underline;">מדריך שימוש</span></strong></p>
+
+
+
+
+1. קבלו מעידו פרטי התחברות ל-[http://idltournaments2024.calicotab.com/](http://idltournaments2024.calicotab.com/)
+2. צרו את הטורניר שלכם. עצרו לפני הזנת שופטים וקבוצות.
+3. באתר שבו אתם נמצאים עכשיו, לחצו על Code > Download ZIP למעלה: \
+
+
+<p id="gdcalert1" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image1.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert2">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
+
+
+![alt_text](images/image1.png "image_tooltip")
+
+4. פרסו את קובץ ה-ZIP בתיקייה במחשב לבחירתכם
+5. פתחו את הקובץ index.html בדפדפן החביב עליכם
+6. תחת Tabbycat URL יש לכתוב [http://idltournaments2024.calicotab.com/](http://idltournaments2024.calicotab.com/)
+7. אין צורך למלא את Tournament name, אך מומלץ לכתוב אותו, בדיוק כפי שכתבתם את שם הטורניר המלא ביצירת הטורניר
+8. תחת Slug יש לכתוב את מה שציינתם בתור Slug ביצירת הטורניר. כדי למצוא את זה, כנסו ל-public area של הטורניר, ותראו מה כתוב בסוף כתובת ה-URL. למשל בתחרות הדיסטופיה ה-URL המלא הוא [http://idltournaments2024.calicotab.com/dystopia2023/](http://idltournaments2024.calicotab.com/dystopia2023/) ולכן ה-Slug הוא "dystopia2023" ללא מרכאות.
+9. כדי למצוא את ה-API token, התחברו למשתמש שלכם באתר [http://idltournaments2024.calicotab.com/](http://idltournaments2024.calicotab.com/). גללו בדף הראשי למטה עד הסוף, שם תראו את הכפתור הבא: \
+
+
+<p id="gdcalert2" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image2.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert3">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
+
+
+![alt_text](images/image2.png "image_tooltip")
+
+10. לחצו על הכפתור. בראש הדף יופיע ה-token שלכם: \
+
+
+<p id="gdcalert3" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image3.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert4">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
+
+
+![alt_text](images/image3.png "image_tooltip")
+
+11. העתיקו את הטקסט שמסומן בצילום הזה באדום והדביקו אותו לדף של ה-importer.
+12. צרו עותק של דף Google Sheets הבא: [https://docs.google.com/spreadsheets/d/1r5JwdSFTpOykkyy1EvtpyP4oDWVGvQ7a_Bx1AKQqvp0/edit?usp=sharing](https://docs.google.com/spreadsheets/d/1r5JwdSFTpOykkyy1EvtpyP4oDWVGvQ7a_Bx1AKQqvp0/edit?usp=sharing)
+13. בהעתק שלכם, מלאו את הגיליונות teams ו-adjudicators לפי התבנית. מומלץ להיעזר בגיליונות לדוגמה teams_sample ו-adjudicators_sample
+    1. שימו לב - 'reference' זהו שם הקבוצה
+    2. לא חובה למלא score על השופטים. ניתן להשאיר ריק (אם לא מילאתם בתהליך הזה תמיד אפשר לערוך את הניקוד רטרואקטיבית ב-Edit Database)
+    3. יש לכלול את גם את האייטים (מי מהם שמגיעים ביום התחרות לשפוט) בטבלת השופטים. יש לכתוב V תחת עמודת adj_core לצד חברי האייטים.
+    4. שמות המוסדות צריכים להתאים בדיוק לשמות המוסדות בגיליון list_of_institutions. לנוחותכם הטופס כולל בדיקת נתונים, מומלץ גם ליצור מראש את טפסי הרישום עם רשימה סגורה של מוסדות שכתובים בדיוק ככה.
+14. עבור כל אחד מהגיליונות teams ו-adjudicators, לחצו על File> Download > Comma Separated Values - CSV. \
+
+
+<p id="gdcalert4" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image4.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert5">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
+
+
+![alt_text](images/image4.png "image_tooltip")
+
+15. שנו את שמות הגיליונות במחשב שלכם ל-teams.csv ו-adjudicators.csv בהתאמה (שלא יהיה שום תו מיותר בשם הקובץ! זה חשוב!)
+16. חזרו לדף index.html שפתחתם קודם, לחצו על כפתור Choose Files, ובחרו את שני הקבצים teams.csv ו-adjudicators.csv שהורדתם מגוגל דרייב. לאחר שתעלו את הקבצים, לצד השדה CSV Files צריך להיות כתוב "2 files": \
+
+
+<p id="gdcalert5" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image5.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert6">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
+
+
+![alt_text](images/image5.png "image_tooltip")
+
+17. לחצו על Submit ותהליך הזנת הנתונים יתחיל. בהצלחה!
