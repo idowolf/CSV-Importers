@@ -1,0 +1,21 @@
+name,email,institution,score,adj_core
+שופט 1,testmail41@mailservice.com,בן גוריון,9,V
+שופט 2,testmail42@mailservice.com,בר אילן,1,
+שופט 3,testmail43@mailservice.com,רייכמן,3,
+שופט 4,testmail44@mailservice.com,העברית,5,
+שופט 5,testmail45@mailservice.com,וייצמן,6,
+שופט 6,testmail46@mailservice.com,טכניון,9,V
+שופט 7,testmail47@mailservice.com,תל אביב,9,V
+שופט 8,testmail48@mailservice.com,המכללה למנהל,9,V
+שופט 9,testmail49@mailservice.com,הפתוחה,9,V
+שופט 10,testmail50@mailservice.com,RRIS,1,
+שופט 11,testmail51@mailservice.com,חיפה,1,
+שופט 12,testmail52@mailservice.com,בראודה,1,
+שופט 13,testmail53@mailservice.com,בן גוריון,1,
+שופט 14,testmail54@mailservice.com,בר אילן,1,
+שופט 15,testmail55@mailservice.com,רייכמן,1,
+שופט 16,testmail56@mailservice.com,העברית,1,
+שופט 17,testmail57@mailservice.com,וייצמן,1,
+שופט 18,testmail58@mailservice.com,טכניון,1,
+שופט 19,testmail59@mailservice.com,תל אביב,1,
+שופט 20,testmail60@mailservice.com,המכללה למנהל,1,
