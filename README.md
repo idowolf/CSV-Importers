@@ -8,7 +8,6 @@
 <a href="#gdcalert5">alert5</a>
 
 <p style="color: red; font-weight: bold">>>>>> PLEASE check and correct alert issues and delete this message and the inline alerts.<hr></p>
-aaaaa
 
 <p dir="rtl">
 <strong><span style="text-decoration:underline;">מדריך שימוש</span></strong></p>
