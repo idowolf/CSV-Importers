@@ -102,7 +102,6 @@ let fullImporter = async (data, tournamentData) => {
 	for (const file of data.getAll("csvs"))
 		files[file.name.slice(0, -4)] = file;
 	[
-		['institutions', 'code', importInstitution],
 		['teams', 'reference', importTeams],
 		['adjudicators', 'name', importAdjudicator]
 	].forEach(t => {
